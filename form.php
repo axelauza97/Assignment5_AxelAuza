@@ -10,6 +10,8 @@
     <form action="process.php" method="get">
         <label for="integers">Enter integers separated by commas:</label>
         <input type="text" id="integers" name="integers" required><br><br>
+        <label for="threshold">Enter threshold:</label>
+        <input type="text" id="threshold" name="threshold" required><br><br>
         <input type="submit" value="Submit">
     </form>
 </body>
